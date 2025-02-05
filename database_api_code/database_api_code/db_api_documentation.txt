@@ -1,0 +1,104 @@
+
+## Table discription 
+
+1. Corporate action  - Main table 
+2. Scheduler_Logs - meta data information on schedule job
+3. Action_History - meta data information of changes corporate action
+
+
+## To run api: uvicorn main:app --reload
+
+## API description
+
+1. corporate action Table
+
+	- Post : "http://127.0.0.1:8000/insert-corporate-action/"
+		- To enter the data
+		
+	For example:
+			{
+			  "Company": "string",
+			  "Corporate_Action": "string",
+			  "Date_Announcement": "string",
+			  "Source": "string",
+			  "Extracted_Information": "string",
+			  "Insertion_Date_Time": "string",
+			  "Modified_Date_Time": "string"
+			}
+		
+			{
+			  "Company": "Tech Innovators Inc.",
+			  "Corporate_Action": "Merger Announcement",
+			  "Date_Announcement": "2025-01-15T10:30:00Z",
+			  "Source": "Official Press Release",
+			  "Extracted_Information": "Tech Innovators Inc. announced a merger with Future Solutions Ltd. to expand their market reach and product offerings.",
+			  "Insertion_Date_Time": "2025-01-15T10:35:00Z",
+			  "Modified_Date_Time": "2025-01-15T10:35:00Z"
+			}
+	
+	- Put : "http://127.0.0.1:8000/update-corporate-action/"
+		- update (based on primary key [user can update ExtractedInformation, user can hit verified button])
+		a) user may update ExtractedInformation
+		b) update backend table ExtractedInformation, Status==Verified, Modified_Date_Time == Current Date and Time.
+		
+		for example:
+		
+		{
+		  "id": int,
+		  "Extracted_Information": "string"
+		}
+		
+		{
+		  "id": 4,
+		  "Extracted_Information": "this is updated"
+		}
+		
+		
+		
+	- Get: " http://127.0.0.1:8000/get-records-today"
+		- Select Records where Insertion_Date_Time == Today (Screen 1)
+		
+	- Get: "http://127.0.0.1:8000/get-records-before-today/"
+		- Select Records where Insertion_Date_Time < Today (Screen 2)
+		
+
+2. 	Scheduler_Logs
+
+	- Post: "http://127.0.0.1:8000/insert-scheduler-log/"
+		- insert new values into Scheduler_Logs
+		
+		For example:
+		
+		{
+		  "Scheduler_Name": "string",
+		  "Source": "string",
+		  "Date_Time_Scheduler_Ran": "string",
+		  "Total_Records_Fetched": int,
+		  "Time_Taken": int,
+		  "Status": "string"
+		}
+		
+		{
+		  "Scheduler_Name": "Daily Data Fetcher",
+		  "Source": "Internal API",
+		  "Date_Time_Scheduler_Ran": "2025-02-04T07:30:00Z",
+		  "Total_Records_Fetched": 1500,
+		  "Time_Taken": 120,
+		  "Status": "Success"
+		}
+		
+	- Get: "http://127.0.0.1:8000/get-scheduler-logs/"
+		- Route to select all records from Scheduler_Logs
+		
+
+3.  Action_History
+
+	#Note: this table will be populated when we update the corporate-action table no need to insert data
+	- Post: "http://127.0.0.1:8000/update-corporate-action/"
+		- based on update on corporate action table columns  Extracted_Information_Before,Extracted_Information_After,Modified_Date_Time
+			will be updated
+		
+	- Get: "http://127.0.0.1:8000/get-action-history/"
+		- # Route to select all records from Action_History
+
+
