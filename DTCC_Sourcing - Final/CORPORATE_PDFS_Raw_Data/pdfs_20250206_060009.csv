@@ -1,0 +1,9 @@
+Company,Corporate_Action,Date_Announcement,Source,Extracted_Information,Insertion_Date_Time,Modified_Date_Time
+1847 Holdings LLC,Stock Dividend Regular,"December 31, 2024",1847_Holdings_LLC_8-K.pdf,"Company_Name: 1847 Holdings LLC
+Company_Symbol: EFSH
+Value_Date: December 30, 2024
+Record_Date: January 10, 2025
+Stock_Dividend_Ratio: 1:1
+Announcement_Date: December 31, 2024
+
+All other requested fields are not available in the provided document.",2025-02-06 05:59:58,2025-02-06 05:59:58

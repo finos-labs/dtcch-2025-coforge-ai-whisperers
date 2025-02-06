@@ -1,0 +1,159 @@
+Company,Corporate_Action,Date_Announcement,Source,Extracted_Information,Insertion_Date_Time,Modified_Date_Time
+1847 Holdings LLC,Stock Dividend Regular,"December 31, 2024",1847_Holdings_LLC_8-K.pdf,"Company_Name: 1847 Holdings LLC
+Company_Symbol: EFSH
+Value_Date: December 30, 2024
+Record_Date: January 10, 2025
+Stock_Dividend_Ratio: 1:1
+Credit_New_Security_Asset_ID: Series E preferred shares
+Announcement_Date: December 31, 2024",2025-02-06 12:33:10,2025-02-06 12:33:10
+Tonix Pharmaceuticals Holding Corp.,Reverse Split,"February 3, 2025",2025-02-03_Tonix_Pharmaceuticals_Announces_1_for_100_Reverse__1545.pdf,"Company_Name: Tonix Pharmaceuticals Holding Corp.
+Company_Symbol: TNXP
+Value_Date: February 5, 2025
+Custodian_ID: 
+Account_Number: 
+Settlement_Amount: 
+Currency: 
+Tax_Details: 
+Eligibility: 
+Debit_Security_Details: 
+Remarks: 
+Reverse_Split_Ratio: 1:100
+Ex-Date: February 5, 2025
+Record_Date: 
+Announcement_Date: February 3, 2025
+Adjusted_Share_Price_and_Quantity: 
+Adjustment_Factor: 
+Credit_New_Security_Asset_ID: 890260839",2025-02-06 12:33:10,2025-02-06 12:33:10
+Stifel Financial Corp.,Cash Dividend Regular,"August 7, 2024",2Q24-Dividend-Announcement.pdf,"Company_Name: Stifel Financial Corp.
+Company_Symbol: SF
+Value_Date: 
+Custodian_ID: 
+Account_Number: 
+Settlement_Amount: 
+Currency: 
+Tax_Details: 
+Eligibility: 
+Debit_Security_Details: 
+Remarks: 
+Dividend_Amount_per_Share: 0.42
+Ex-Date: 
+Record_Date: September 3, 2024
+Announcement_Date: August 7, 2024
+Payment_Date: September 17, 2024
+Sedol: 
+Currency: 
+Dividend_Rate: 0.42",2025-02-06 12:33:10,2025-02-06 12:33:10
+"60 Degrees Pharmaceuticals, Inc.",Reverse Split,"August 6, 2024","60 Degrees Pharmaceuticals, Inc. Announces 1_12 Reverse Stock Split.pdf","Company_Name: 60 Degrees Pharmaceuticals, Inc.
+Company_Symbol: SXTP
+Value_Date: August 12, 2024
+Custodian_ID: Equity Stock Transfer, LLC
+Account_Number: 
+Settlement_Amount: 
+Currency: 
+Tax_Details: 
+Eligibility: 
+Debit_Security_Details: CUSIP - 83006G203
+Remarks: Common Stock will continue to trade on The Nasdaq Capital Market
+Reverse_Split_Ratio: 1:12
+Ex-Date: August 12, 2024
+Record_Date: 
+Announcement_Date: August 6, 2024
+Adjusted_Share_Price_and_Quantity: 
+Adjustment_Factor: 
+Credit_New_Security_Asset_ID:",2025-02-06 12:33:10,2025-02-06 12:33:10
+"Berkshire Hills Bancorp, Inc. and Brookline Bancorp, Inc.",Mergers,2025-02-06,BHLB-BRKL-Merger-News-Release-December-16-2024-ir.pdf,"Company_Name: Berkshire Hills Bancorp, Inc. and Brookline Bancorp, Inc.
+Company_Symbol: BHLB and BRKL
+Value_Date: December 16, 2024
+Custodian_ID:
+Account_Number:
+Settlement_Amount: $1.1 billion
+Currency: USD
+Tax_Details:
+Eligibility:
+Debit_Security_Details:
+Remarks:
+Ex-Date:
+Credit_New_Security_Asset_ID:
+Stock_Merger_Ratio: 0.42
+Dividend_Ratio:",2025-02-06 12:33:10,2025-02-06 12:33:10
+Entergy Corporation,Forward Split,"October 31, 2024",Entergy-Stock-Split-FAQs-FINAL-11-20-24.pdf,"Company_Name: Entergy Corporation
+Company_Symbol: ETR
+Value_Date: 
+Custodian_ID: 
+Account_Number: 
+Settlement_Amount: 
+Currency: 
+Tax_Details: 
+Eligibility: 
+Debit_Security_Details: 
+Remarks: 
+Stock_Split_Ratio: 2:1
+Ex-Date: December 13, 2024
+Record_Date: December 5, 2024
+Announcement_Date: October 31, 2024
+Payment_Date: December 12, 2024
+Adjusted_Share_Price_and_Quantity: One-half of pre-split price
+Adjustment_Factor: 2
+Credit_New_Security_Asset_ID:",2025-02-06 12:33:10,2025-02-06 12:33:10
+MicroStrategy Incorporated,Forward Split,"July 11, 2024",microstrategy-announces-10-for-1-stock-split.pdf,"Company_Name: MicroStrategy Incorporated
+Company_Symbol: MSTR
+Value_Date: 
+Custodian_ID: 
+Account_Number: 
+Settlement_Amount: 
+Currency: 
+Tax_Details: 
+Eligibility: 
+Debit_Security_Details: 
+Remarks: 
+Stock_Split_Ratio: 10:1
+Ex-Date: August 8, 2024
+Record_Date: August 1, 2024
+Announcement_Date: July 11, 2024
+Payment_Date: August 7, 2024
+Adjusted_Share_Price_and_Quantity: 
+Adjustment_Factor: 
+Credit_New_Security_Asset_ID:",2025-02-06 12:33:10,2025-02-06 12:33:10
+Token Communities Ltd.,Mergers,2025-02-06,TOKEN_COMMUNITIES_LTD._10-K.pdf,"Based on the financial record provided, I can extract:
+
+Company_Name: Token Communities Ltd.
+Company_Symbol: TKCM
+Value_Date: June 30, 2024
+Settlement_Amount: $3,987,903
+Currency: USD
+
+All other requested fields (Custodian_ID, Account_Number, Tax_Details, Eligibility, Debit_Security_Details, Remarks, Ex-Date, Credit_New_Security_Asset_ID, Stock_Merger_Ratio, Dividend_Ratio) are not present in the document.",2025-02-06 12:33:10,2025-02-06 12:33:10
+U.S. Bancorp,Cash Dividend Regular,2024-12-10,U.S.-Bancorp-announces-quarterly-dividends-ddbf8c7f2-2024.pdf,"Company_Name: U.S. Bancorp
+Company_Symbol: USB
+Value_Date: 
+Custodian_ID: 
+Account_Number: 
+Settlement_Amount: 
+Currency: 
+Tax_Details: 
+Eligibility: 
+Debit_Security_Details: 
+Remarks: 
+Dividend_Amount_per_Share: 0.50
+Ex-Date: 
+Record_Date: 2024-12-31
+Announcement_Date: 2024-12-10
+Payment_Date: 2025-01-15
+Sedol: 
+Currency: 
+Dividend_Rate: 2.00",2025-02-06 12:33:10,2025-02-06 12:33:10
+"United Community Banks, Inc.",Mergers,2025-02-06,"United Community Banks, Inc. and ANB Holdings, Inc., the Parent of American National Bank, Announce Merger Agreement.pdf","Company_Name: United Community Banks, Inc.
+Company_Symbol: UCB
+Value_Date: December 3, 2024
+Stock_Merger_Ratio: 1.650
+Settlement_Amount: 80000000
+Currency: USD
+Debit_Security_Details: ANB Holdings, Inc.
+Credit_New_Security_Asset_ID: NYSE: UCB
+Custodian_ID:
+Account_Number:
+Tax_Details:
+Eligibility:
+Remarks:
+Ex-Date:
+Dividend_Ratio:",2025-02-06 12:33:10,2025-02-06 12:33:10

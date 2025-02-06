@@ -1,0 +1,59 @@
+Company,Corporate_Action,Date_Announcement,Source,Extracted_Information,Insertion_Date_Time,Modified_Date_Time
+1847 Holdings LLC,Stock Dividend Regular,"December 31, 2024",1847_Holdings_LLC_8-K.pdf,"Company_Name: 1847 Holdings LLC
+Company_Symbol: EFSH
+Value_Date: December 30, 2024
+Stock_Dividend_Ratio: 1:1
+Record_Date: January 10, 2025
+Announcement_Date: December 31, 2024",2025-02-06 10:18:41,2025-02-06 10:18:41
+Tonix Pharmaceuticals Holding Corp.,Reverse Split,"February 3, 2025",2025-02-03_Tonix_Pharmaceuticals_Announces_1_for_100_Reverse__1545.pdf,"Company_Name: Tonix Pharmaceuticals Holding Corp.
+Company_Symbol: TNXP
+Value_Date: February 5, 2025
+Custodian_ID: 
+Account_Number: 
+Settlement_Amount: 
+Currency: 
+Tax_Details: 
+Eligibility: 
+Debit_Security_Details: 
+Remarks: 
+Reverse_Split_Ratio: 1:100
+Ex-Date: February 5, 2025
+Record_Date: 
+Announcement_Date: February 3, 2025
+Adjusted_Share_Price_and_Quantity: 
+Adjustment_Factor: 
+Credit_New_Security_Asset_ID: 890260839",2025-02-06 10:18:41,2025-02-06 10:18:41
+Stifel Financial Corp.,Cash Dividend Regular,"August 7, 2024",2Q24-Dividend-Announcement.pdf,"Company_Name: Stifel Financial Corp.
+Company_Symbol: SF
+Value_Date: 
+Custodian_ID: 
+Account_Number: 
+Settlement_Amount: 
+Currency: 
+Tax_Details: 
+Eligibility: 
+Debit_Security_Details: 
+Remarks: 
+Dividend_Amount_per_Share: 0.42
+Ex-Date: 
+Record_Date: September 3, 2024
+Announcement_Date: August 7, 2024
+Payment_Date: September 17, 2024
+Sedol: 
+Currency: 
+Dividend_Rate:",2025-02-06 10:18:41,2025-02-06 10:18:41
+"Berkshire Hills Bancorp, Inc. and Brookline Bancorp, Inc.",Mergers,2025-02-06,BHLB-BRKL-Merger-News-Release-December-16-2024-ir.pdf,"Company_Name: Berkshire Hills Bancorp, Inc. and Brookline Bancorp, Inc.
+Company_Symbol: BHLB, BRKL
+Value_Date: December 16, 2024
+Custodian_ID:
+Account_Number:
+Settlement_Amount: $1.1 billion
+Currency: USD
+Tax_Details:
+Eligibility:
+Debit_Security_Details:
+Remarks: Merger of Equals
+Ex-Date:
+Credit_New_Security_Asset_ID:
+Stock_Merger_Ratio: 0.42
+Dividend_Ratio:",2025-02-06 10:18:41,2025-02-06 10:18:41

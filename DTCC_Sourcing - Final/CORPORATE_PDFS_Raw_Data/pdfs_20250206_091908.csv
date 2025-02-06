@@ -1,0 +1,63 @@
+Company,Corporate_Action,Date_Announcement,Source,Extracted_Information,Insertion_Date_Time,Modified_Date_Time
+Stifel Financial Corp.,Cash Dividend Regular,"August 7, 2024",2Q24-Dividend-Announcement.pdf,"Company_Name: Stifel Financial Corp.
+Company_Symbol: SF
+Value_Date: 
+Custodian_ID: 
+Account_Number: 
+Settlement_Amount: 
+Currency: 
+Tax_Details: 
+Eligibility: 
+Debit_Security_Details: 
+Remarks: 
+Dividend_Amount_per_Share: 0.42
+Ex-Date: 
+Record_Date: September 3, 2024
+Announcement_Date: August 7, 2024
+Payment_Date: September 17, 2024
+Sedol: 
+Currency: 
+Dividend_Rate:",2025-02-06 09:18:45,2025-02-06 09:18:45
+"60 Degrees Pharmaceuticals, Inc.",Reverse Split,"August 6, 2024","60 Degrees Pharmaceuticals, Inc. Announces 1_12 Reverse Stock Split.pdf","Company_Name: 60 Degrees Pharmaceuticals, Inc.
+Company_Symbol: SXTP
+Value_Date: August 12, 2024
+Custodian_ID: Equity Stock Transfer, LLC
+Account_Number: 
+Settlement_Amount: 
+Currency: 
+Tax_Details: 
+Eligibility: 
+Debit_Security_Details: CUSIP - 83006G203
+Remarks: 
+Reverse_Split_Ratio: 1:12
+Ex-Date: August 12, 2024
+Record_Date: 
+Announcement_Date: August 6, 2024
+Adjusted_Share_Price_and_Quantity: 
+Adjustment_Factor: 
+Credit_New_Security_Asset_ID:",2025-02-06 09:18:45,2025-02-06 09:18:45
+U.S. Bancorp,Cash Dividend Regular,2024-12-10,U.S.-Bancorp-announces-quarterly-dividends-ddbf8c7f2-2024.pdf,"Company_Name: U.S. Bancorp
+Company_Symbol: USB
+Value_Date:
+Custodian_ID:
+Account_Number:
+Settlement_Amount:
+Currency:
+Tax_Details:
+Eligibility:
+Debit_Security_Details:
+Remarks:
+Dividend_Amount_per_Share: 0.50
+Ex-Date:
+Record_Date: 2024-12-31
+Announcement_Date: 2024-12-10
+Payment_Date: 2025-01-15
+Sedol:
+Currency: USD
+Dividend_Rate: 2.00",2025-02-06 09:18:45,2025-02-06 09:18:45
+"United Community Banks, Inc.",Mergers,2025-02-06,"United Community Banks, Inc. and ANB Holdings, Inc., the Parent of American National Bank, Announce Merger Agreement.pdf","Company_Name: United Community Banks, Inc.
+Company_Symbol: UCB
+Value_Date: December 3, 2024
+Settlement_Amount: 80000000
+Currency: USD
+Stock_Merger_Ratio: 1.650",2025-02-06 09:18:45,2025-02-06 09:18:45

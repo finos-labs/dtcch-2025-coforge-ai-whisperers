@@ -1,0 +1,65 @@
+Company,Corporate_Action,Date_Announcement,Source,Extracted_Information,Insertion_Date_Time,Modified_Date_Time
+Tonix Pharmaceuticals Holding Corp.,Reverse Split,"February 3, 2025",2025-02-03_Tonix_Pharmaceuticals_Announces_1_for_100_Reverse__1545.pdf,"Company_Name: Tonix Pharmaceuticals Holding Corp.
+Company_Symbol: TNXP
+Value_Date: February 5, 2025
+Custodian_ID: 
+Account_Number: 
+Settlement_Amount: 
+Currency: 
+Tax_Details: 
+Eligibility: 
+Debit_Security_Details: 
+Remarks: 
+Reverse_Split_Ratio: 1:100
+Ex-Date: February 5, 2025
+Record_Date: 
+Announcement_Date: February 3, 2025
+Adjusted_Share_Price_and_Quantity: 
+Adjustment_Factor: 
+Credit_New_Security_Asset_ID: 890260839",2025-02-06 10:24:01,2025-02-06 10:24:01
+MicroStrategy Incorporated,Forward Split,"July 11, 2024",microstrategy-announces-10-for-1-stock-split.pdf,"Company_Name: MicroStrategy Incorporated
+Company_Symbol: MSTR
+Value_Date: 
+Custodian_ID: 
+Account_Number: 
+Settlement_Amount: 
+Currency: 
+Tax_Details: 
+Eligibility: 
+Debit_Security_Details: 
+Remarks: 
+Stock_Split_Ratio: 10:1
+Ex-Date: August 8, 2024
+Record_Date: August 1, 2024
+Announcement_Date: July 11, 2024
+Payment_Date: August 7, 2024
+Adjusted_Share_Price_and_Quantity: 
+Adjustment_Factor: 
+Credit_New_Security_Asset_ID:",2025-02-06 10:24:01,2025-02-06 10:24:01
+Token Communities Ltd.,Mergers,2025-02-06,TOKEN_COMMUNITIES_LTD._10-K.pdf,"Based on the financial record provided, here are the available key-value pairs:
+
+Company_Name: Token Communities Ltd.
+Company_Symbol: TKCM
+Value_Date: June 30, 2024
+Currency: USD
+
+All other requested fields are not explicitly mentioned in the document, so they should remain empty.",2025-02-06 10:24:01,2025-02-06 10:24:01
+U.S. Bancorp,Cash Dividend Regular,2024-12-10,U.S.-Bancorp-announces-quarterly-dividends-ddbf8c7f2-2024.pdf,"Company_Name: U.S. Bancorp
+Company_Symbol: USB
+Value_Date: 
+Custodian_ID: 
+Account_Number: 
+Settlement_Amount: 
+Currency: 
+Tax_Details: 
+Eligibility: 
+Debit_Security_Details: 
+Remarks: 
+Dividend_Amount_per_Share: 0.50
+Ex-Date: 
+Record_Date: 2024-12-31
+Announcement_Date: 2024-12-10
+Payment_Date: 2025-01-15
+Sedol: 
+Currency: 
+Dividend_Rate: 2.00",2025-02-06 10:24:01,2025-02-06 10:24:01
