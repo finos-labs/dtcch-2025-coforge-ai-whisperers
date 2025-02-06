@@ -1,0 +1,376 @@
+/* General Styling */
+body {
+    margin: 0;
+    font-family: 'Roboto', Arial, sans-serif;
+    background-color: #f4f4f4;
+    /* background-color: #e6e6fa; */
+}
+
+* {
+    box-sizing: border-box; /* Ensures padding and borders are included in the element's width and height */
+}
+
+.page-container {
+    display: flex;
+    flex-direction: column;
+    /* height: 100%; */
+    min-height: 100vh;
+    background-color: #e6e6fa;
+}
+
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #082340; /* Dark blue color */
+    color: white;
+    height: 60px;
+    padding: 0 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.navbar-left{
+    display: flex;
+    align-items: center;
+}
+
+.navbar-logo {
+    height: 20px;
+    margin-right: 8px;
+    opacity: 1;
+}
+
+.navbar-divider {
+    margin: 0 8px;
+    color: #ccc;
+}
+
+.navbar-text {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+/* Main Content */
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    flex-grow: 1;
+    padding: 80px 20px 20px 20px;
+    gap: 20px;
+    background-color: #e6e6fa;
+    overflow: hidden;
+    width: 100%;
+}
+
+/* Boxes */
+.box {
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+    padding: 20px;
+    text-align: center;
+    flex-shrink: 0;
+}
+
+
+.large-box {
+    width: 100%; /* 70% width with space for a gap */
+    height: calc(100vh - 120px); /* Adjust height based on the viewport */
+    overflow: auto; /* Ensure scrolling inside if content overflows */
+    
+}
+/* Table container should not overflow */
+.table-container {
+    width: 100%;
+    max-width: 100%;
+    height: 50vh;
+    overflow-x: auto;
+    overflow-y: auto;
+    max-height: 450px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    background: white;
+}
+
+/* Ensure table does not exceed container */
+.styled-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Ensure extracted info table stays inside */
+.extracted-info-container {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: auto;
+}
+
+
+.extracted-info-table {
+    margin-top: 25px;
+    padding: 10px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+}
+
+.extracted-info-table h3 {
+    text-align: center;
+    color: #082340;
+}
+
+.extracted-info-table .styled-table {
+    width: 60%;
+    border-collapse: collapse;
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.extracted-info-table .styled-table td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+.info-button {
+    padding: 6px 12px;
+    background-color: #f43047;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s ease;
+}
+
+.info-button:hover {
+    background-color: #f87690;
+}
+
+/* Extracted Info Table Container */
+.extracted-info-container {
+    width: 60%;
+    margin: 20px auto; /* Center the table */
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Extracted Info Table */
+.extracted-info-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.extracted-info-table th, .extracted-info-table td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+.extracted-info-table th {
+    background-color: #082340;
+    color: white;
+}
+
+.extracted-info-table tr:hover {
+    background-color: #f8f8f8;
+}
+.editable-input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+/* Button Container */
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  /* Source Button */
+  .source-btn {
+    background-color: #3ed762;  /* Green color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  /* Source Button Hover Effect */
+  .source-btn:hover {
+    background-color: #40fc69;
+  }
+  
+  /* Submit Button */
+  .submit-btn {
+    background-color: #f43047;  /* Blue color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  /* Submit Button Hover Effect */
+  .submit-btn:hover {
+    background-color: #f57676;
+  }
+
+  /* Corporate Actions Title */
+.corporate-actions-title {
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-bottom: 2px solid #ff3b3b;
+  }
+  
+  /* Horizontal Scrollable Corporate Actions */
+  .action-list-container {
+    overflow-x: auto;
+    white-space: nowrap;
+    padding-bottom: 10px;
+    margin-top: 20px;
+
+  }
+  
+  .action-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .action-list ul {
+    display: flex;
+    gap: 15px;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .action-list li {
+    list-style: none;
+    padding: 10px 15px;
+    background: white;
+    color: #222;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    position: relative;
+  }
+  
+  .action-list li:hover {
+    background: #f8d7da;
+  }
+  
+  /* Selected Action Indicator */
+  .action-list li.selected {
+    color: #ff3b3b;
+  }
+  
+  .action-indicator {
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background-color: #ff3b3b;
+    border-radius: 2px;
+  }
+  
+  /* Action Details */
+  .action-details {
+    margin-top: 20px;
+  }
+  
+
+.table-container {
+    max-height: 450px;
+    overflow-y: auto;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    background: white;
+}
+
+.styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table th, .styled-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.styled-table th {
+    background-color: #082340;
+    color: white;
+}
+
+.styled-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.editable-input {
+    width: 100%;
+    padding: 6px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+  /* Footer styling */
+.footer {
+    position: relative; /* Fixed position relative to the viewport */
+    left: 50%;        /* Align it to the center horizontally */
+    transform: translateX(-50%); /* Adjust the positioning to center it perfectly */
+    font-family: 'Anek Devanagari', sans-serif;
+    padding: 10px 20px;         /* Padding for spacing */
+    font-size: 16px;            /* Font size */
+    font-weight: bold;
+    text-align: center;         /* Center the text */
+    color: #082340;             /* Text color */
+    width: auto;                /* Allow it to take the width of its content */
+  }
+/* Responsive Design */
+@media (max-width: 768px) {
+    .main-content {
+        flex-direction: column;
+        padding: 80px 10px;
+    }
+
+    .large-box {
+        width: 100%;
+        height: 200px;
+        margin-bottom: 20px;
+    }
+}
+
