@@ -9,7 +9,7 @@ import json
 
 # Initialize the AnthropicBedrock client
 client = get_anthropic_client()
-
+filename = datetime.now().strftime('finra_%Y%m%d_%H%M%S.csv')
 def invoke_claude(prompt):
     """Sends a prompt to Claude 3.5 on AWS Bedrock and returns the response."""
     try:
@@ -94,7 +94,7 @@ def fetch_financial_data():
     df['dailyListDatetime'] = pd.to_datetime(df['dailyListDatetime'])
     # from datetime import datetime, timedelta
     # import pytz
-
+    df['dailyListReasonDescription'] = df['dailyListReasonDescription'].replace('Reverse Split/CUSIP Change', 'Reverse Split')
         # Ensure the 'dailyListDatetime' column is in datetime format
     df['dailyListDatetime'] = pd.to_datetime(df['dailyListDatetime'])
 
@@ -111,7 +111,8 @@ def fetch_financial_data():
 
     folder_path = 'FINRA_Raw_Data'
     os.makedirs(folder_path, exist_ok=True)
-    filename = datetime.now().strftime('finra_%Y%m%d_%H%M%S.csv')
+    # filename = datetime.now().strftime('finra_%Y%m%d_%H%M%S.csv')
+    latest_records.to_csv(os.path.join(r"C:\Users\hackathon\Documents\DTCC\interface\src\assets", filename), index=False)
     latest_records.to_csv(os.path.join(folder_path, filename), index=False)
     # Convert dataframe to a list of dictionaries
     return latest_records.to_dict(orient='records')
@@ -158,7 +159,7 @@ def get_formatted_financial_data():
             "Company": item['original_data'].get('newSecurityDescription', 'N/A'),
             "Corporate_Action": item['event_type'],
             "Date_Announcement": str(item['original_data'].get('dailyListDatetime', 'N/A')),
-            "Source": 'FINRA',
+            "Source": filename,
             "Extracted_Information": item['extracted_data'],
             "Insertion_Date_Time": current_datetime,
             "Modified_Date_Time": current_datetime
