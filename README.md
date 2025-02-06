@@ -3,13 +3,11 @@
 # FINOS DTCC Hackathon 
 
 
-## Project Name: Corporate Action Data Ingestion
+## Project Name: Corporate Action Reference Data Ingestion
 
-### Project Details
-
+### Project Details : GenAI accurately sources and extract corporate action details, transforming raw information into structured, actionable data. 
 
 ### Team Information
-
 
 ## Using DCO to sign your commits
 
