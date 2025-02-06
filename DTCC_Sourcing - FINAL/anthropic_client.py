@@ -1,0 +1,10 @@
+from anthropic import AnthropicBedrock
+
+# Initialize and return the AnthropicBedrock client
+def get_anthropic_client():
+    return AnthropicBedrock(
+        aws_access_key="ASIA3CMCCZORRNRE675D",
+        aws_secret_key="TaFZ17QehF4mZQKagqfGdY93tUCTF+TUObfUJ/bq",
+        aws_session_token="IQoJb3JpZ2luX2VjED0aCXVzLWVhc3QtMiJIMEYCIQDs1y0jaL0Sa3x8eu8uSf7t3MVbMZUzQxGfbOgmsEPISAIhANLFN/zz/+MSQtNQj7ZMha9WM5C1BdLpM3yAJqruiWhyKqsDCFYQABoMNzYxMDE4ODk1MjY3IgwyLVXeWFUYlFkLaHIqiAOaPw0E7JKUxjvP06qAsMWqVcWUqM6gmqcTWV9xoZpQYZ+G16fQDlLF2ZALxfYS3+9vwVwJQzhWozFGjVFRbRmmjQFWz/NBEMtq62V2/ZvHhWRy9S8bdtY2ZRarKYWtOgTWQnuWTKBgLLErFGm2pH2H9vaTc4FejVKrAJ3RNsDaIUzJ7sHjjxn8YxXeCA42h7IaeE7oq0bDcu9AtuifBusm5g6BGBs+YJbLJGEKggGY3FEOGwoeQWdhklPfsRFUVpyAwfce/FTcJiFYpcWOxOT5hVQSOcarLHTNaNn0Z0pa77JRvG3eWcHi4Gi5SfhkE8V9CptloQBNIk8RRh/ELPtVUgXPVU/okFyavfMJOJf2goTTu0h/p/4ozTPvDNpuvpmk0yMvDHLY25XDVVnMt4NxclU1qtPKArGWLiqxWA4F/JjI6HduOezX3dQUBjDjeGaifkALCzg4xzt2VWl4ahzHuDJOoWdgLucOy+R9Yy0yymsKJV7nSwmKdEcXuXvg1zxCiyDvnDLU6zD4+ZC9BjqlAeVPniSK1ctBNOdipyyx++7UksInPxzZjXno2/12lNlytqKArAiDSWOFFHd8zXcnhHqL5bAx8pvZyNqA+2vo2Ok/7KfTFFNdnb7GXL+1sJLKKFeSqeEWyU7Fle4i7ObnfRFXHfroMMYOa9jPVDWx33VliJIq1V/l8RiUULxxCQak4gvBAqivU/wRDFGB+fz6fEon/e5cqrlgg2htIiLGyRrPit8aLQ==",
+        aws_region="us-west-2",
+    )
