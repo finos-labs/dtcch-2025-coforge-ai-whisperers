@@ -1,7 +1,10 @@
 from sec_api import QueryApi, PdfGeneratorApi
 import os
 import re
+from datetime import datetime
 
+# Get today's date in the required format
+today_date = datetime.today().strftime('%Y-%m-%d')
 # Initialize APIs
 queryApi = QueryApi(api_key=os.environ.get("SEC_API_KEY"))
 pdfGeneratorApi = PdfGeneratorApi(api_key=os.environ.get("SEC_API_KEY"))
@@ -10,7 +13,7 @@ pdfGeneratorApi = PdfGeneratorApi(api_key=os.environ.get("SEC_API_KEY"))
 base_query = {
     "query": {
         "query_string": {
-            "query": "formType:(\"10-K\", \"10-Q\", \"8-K\", \"S-4\") AND filedAt:[2024-12-31 TO 2024-12-31]",
+            "query": "formType:(\"10-K\", \"10-Q\", \"8-K\", \"S-4\") AND filedAt:[{today_date} TO {today_date}]",
             "time_zone": "America/New_York"
         }
     },
@@ -19,7 +22,7 @@ base_query = {
     "sort": [{"filedAt": {"order": "desc"}}]
 }
 
-print("Querying SEC for filings on December 31st...")
+print("Querying SEC for filings on ",today_date,"...")
 response = queryApi.get_filings(base_query)
 
 # Extract filing URLs and metadata
