@@ -3,8 +3,7 @@
 # FINOS DTCC Hackathon 
 
 
-## Project Name
-
+## Project Name: Corporate Action Data Ingestion
 
 ### Project Details
 
